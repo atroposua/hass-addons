@@ -1,5 +1,5 @@
 {
-  "name": "Frigate NVR",
+  "name": "Frigate NVR (amd gpu)",
   "version": "2.3",
   "panel_icon": "mdi:cctv",
   "panel_title": "Frigate",
@@ -36,7 +36,8 @@
   "tmpfs": true,
   "full_access": false,
   "environment": {
-    "CONFIG_FILE": "/config/frigate.yml"
+    "CONFIG_FILE": "/config/frigate.yml",
+    "LIBVA_DRIVER_NAME": "radeonsi"
   },
   "options": {},
   "schema": {},
